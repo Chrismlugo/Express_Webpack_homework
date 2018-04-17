@@ -36,7 +36,7 @@ filmsRouter.put('/:id', function(req,res){
 })
 
 filmsRouter.delete('/:id', function(req,res){
-  filmsArray.splice(req.params.id, 1);
+  films.splice(req.params.id, 1);
   res.json({data: films});
 })
 
