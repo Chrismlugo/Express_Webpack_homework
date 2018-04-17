@@ -5,3 +5,5 @@ var app = function(){
 }
 
 window.addEventListener('load', app);
+
+module.exports = UI;
